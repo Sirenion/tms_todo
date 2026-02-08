@@ -1,0 +1,23 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    #const rules
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_declarations: true
+
+    always_use_package_imports: true
+    always_declare_return_types: true
+    prefer_final_locals: true
+    prefer_conditional_assignment: true
+    prefer_single_quotes: true
+    require_trailing_commas: true
+    unnecessary_this: true
+    avoid_dynamic_calls: true
+    cancel_subscriptions: true
+    close_sinks: true
+    avoid_unnecessary_containers: true
+    use_key_in_widget_constructors: true
+    depend_on_referenced_packages: true
+    super_goes_last: true
